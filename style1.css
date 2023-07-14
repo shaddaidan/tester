@@ -26,6 +26,37 @@ table tr td {
     margin: 20px auto;
 }
 
-iframe {
-   
+.poster_sect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+.poster {
+    border: 3px solid #EDE4FF;
+    border-radius: 6px;
+    width: 300px;
+    height: 200px;
+    background-color: #A076F9;
+    text-align: center;  
+}
+
+.poster h3 {
+    background-color: #D7BBF5;
+    padding: 20px;
+    width: 100%;
+     
+    
+}
+
+footer {
+    width: 700px;
+    height: 60px;
+    background-color: #D7BBF5;
+    margin: auto;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
